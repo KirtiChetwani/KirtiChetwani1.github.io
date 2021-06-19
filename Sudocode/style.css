@@ -88,6 +88,7 @@ body
 .foot{
   font-family: 'Ubuntu', sans-serif;
     margin-top: 50%;
+    width: fit-content;
     height: fit-content;
     background-color: black;
 }
@@ -110,15 +111,7 @@ span:hover{
     color: goldenrod;
     border: 2px solid red;
 }
-.abcd{
-    margin-top: 50%;
-    /* padding-bottom: 25%; */
-    height: 70px;
-    width: 100%;
-    /* background-color: turquoise; */
-    opacity: 1;
-    position: absolute;
-}
+
 a{
     font-family: 'Ubuntu', sans-serif;
 }
