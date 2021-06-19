@@ -88,7 +88,6 @@ body
 .foot{
   font-family: 'Ubuntu', sans-serif;
     margin-top: 50%;
-    width: fit-content;
     height: fit-content;
     background-color: black;
 }
