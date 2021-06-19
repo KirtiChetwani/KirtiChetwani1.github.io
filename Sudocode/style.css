@@ -5,7 +5,7 @@
 }
 @font-face {
     font-family: 'valorant';
-    src: url('E:/web dev/SUDOCODE/Valorant_Font.ttf');
+    src: url('fonts/Valorant_Font.ttf');
 }
 
 html,
@@ -122,7 +122,6 @@ span:hover{
 a{
     font-family: 'Ubuntu', sans-serif;
 }
-/* kirti */
 
 
 #loader {
@@ -212,7 +211,6 @@ a{
     }
   }
   
-/* kirti */
 .fix{
 
     position: fixed;
