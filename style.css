@@ -374,7 +374,7 @@
       animation-name: pload;
       animation-delay: 1s;
       opacity: 0;
-      font-size: smaller;
+      font-size:x-small;
       animation-duration: 1s;
       animation-fill-mode: forwards;
     }
