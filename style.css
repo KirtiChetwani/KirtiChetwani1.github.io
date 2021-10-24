@@ -81,7 +81,7 @@
    color: rgb(208, 245, 245);
    }
 .tag3{
-  margin-left: 30%;
+  margin-left: 5%;
   color: rgb(208, 245, 245);
   animation-name: pload;
   animation-delay: 1s;
@@ -384,7 +384,7 @@
       animation-fill-mode: forwards;
     }
     .tag3{
-      margin-left: 8%;
+      margin-left: 2%;
       color: rgb(208, 245, 245);
       animation-name: pload;
       animation-delay: 1s;
@@ -726,9 +726,11 @@ iframe
 .popup .close:hover {
   color: #0b0c0c;
 }
-.popup .content {
+.popup .tag4{
   max-height: 30%;
   overflow: auto;
+  color: black;
+  font-size: medium;
 }
 
 @media screen and (max-width: 900px){
@@ -795,9 +797,11 @@ iframe
   .popup .close:hover {
     color: #0b0c0c;
   }
-  .popup .content {
+  .popup .tag4{
     max-height: 30%;
     overflow: auto;
+    color: black;
+    font-size: small;
   }
   
 }
