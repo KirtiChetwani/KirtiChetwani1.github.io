@@ -506,6 +506,7 @@
       }
       .timeline > li > .timeline-panel:after {
         position: absolute;
+        z-index: -1;
         top: 27px;
         right: -14px;
         display: inline-block;
@@ -542,6 +543,10 @@
         left: -15px;
         right: auto;
       }
+      .timeline-heading .zxc{
+        position: relative;  
+        z-index: -1;
+      }
       .timeline > li.timeline-inverted > .timeline-panel:after {
         border-left-width: 0;
         border-right-width: 14px;
@@ -559,7 +564,10 @@
       .timeline-body > p + p {
         margin-top: 5px;
       }
-      
+      .timeline-body{
+        position: relative;
+        z-index: -1;
+      }
      
       /* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
       .flip-box {
